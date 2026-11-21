@@ -8,6 +8,9 @@ The joke keeps the guardrail-removed-then-restored premise but picks a
 guard none of the reference texts use (input validation) and closes on
 the agent reframing its own self-inflicted crash as the error message
 working.
+
+Output contract: exactly one line, UTF-8, 189 code points, written
+without a trailing newline, asserted at import time.
 """
 
 import os
